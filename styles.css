@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 244px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 50px 0 0 0;
+}
+
+li {
+  text-transform: lowercase;
+  color: #444;
+  font-weight: 100;
+  margin: 0;
+  font-size: 16px;
+  padding: 8px 0 8px 50px;
+  text-align: left;
+}
+
+li:hover {
+  background-color: #EF382B;
+  color: white;
+}
+
+h1, h2 {
+  height: 125px;
+  margin: 0;
+}
+
+h1 {
+  line-height: 225px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #808284;
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+h3 {
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  display: inline-block;
+}
+
+.topicon {
+  height: 120px;
+  width: 120px;
+  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.harrow {
+  height: 12px;
+  margin: -6px 0 -6px 0;
+}
+
+#navarrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 242px;
+}
+
+.hdimension, .vdimension {
+  font-size: 8px;
+  position: relative;
+  z-index: 100;
+}
+
+.hdimension {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 12px;
+  height: 5px;
+  width: 25px;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+.vdimension {
+    width: 8px;
+    border-right: 2px solid white;
+    position: relative;
+    top: 50%;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.hline {
+  border-bottom: 2px solid #999;
+  position: relative;
+  bottom:2px;
+  width: auto;
+}
+
+.vline {
+  border-right: 2px solid #999;
+  position: relative;
+  right: 2px;
+  height: 100%;
+}
+
+.hlend, .hrend {
+  height: 12px;
+  position: relative;
+  bottom: 9px;
+}
+
+.hlend {
+  float: left;
+}
+
+.hrend {
+  float: right;
+  transform: scale(-1, -1);
+}
+
+.varrow {
+  height: 100%;
+  width: 12px;
+  margin: 0 -6px 0 -6px;
+}
+
+.vtend, .vbend {
+  height: 12px;
+  z-index: 99;
+}
+
+.vtend {
+  position: absolute;
+  top: -3px;
+  left: 6px;
+  transform: rotate(90deg);
+}
+
+.vbend {
+  position: absolute;
+  bottom: -3px;
+  left: 6px;
+  transform: rotate(270deg);
+}
+
+#content {
+  position: absolute;
+  left: 250px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.page {
+  padding: 210px 30px 30px 30px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.pagetitle {
+  width: auto;
+  display: inline-block;
+}
+
+#bottomarrow {
+  padding-top: 20px;
+  clear: both;
+}
+
+.horizontal-banner {
+  padding: 30px 0 30px 0;
+  overflow: auto;
+}
+
+.horizontal-banner img {
+  height: 300px;
+  float: left;
+  margin: 0 30px 0 0;
+  border-radius: 5px;
+}
+
+.horizontal-banner p {
+  display: block;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+}
+
+.active {
+  background-color: #EF382B;
+  color: white;
+}
